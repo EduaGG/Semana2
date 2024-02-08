@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicio 1</h1>
+
+    <input type="number" placeholder="Base" id="base">
+    <input type="number" placeholder="Exponente" id="exponente">
+    <button type="submit" onclick="calcularExponente()">Calcular</button>
+    <h3 id="resultado-1">El resultado del numero es: </h3>
+
+    <hr>
+    <h1>Ejercicio 2</h1>
+
+    <input type="number" placeholder="Grados centigrados" id="centigrados">
+    <button type="submit" onclick="calcularGrados()">Calcular</button>
+    <h3 id="resultado-2">El resultado en grados Farenheit es: </h3>
+
+    <hr>
+    <h1>Ejercicio 3</h1>
+
+    <input type="text" placeholder="Ingrese un nombre" id="nombre">
+    <button type="submit" onclick="agregarNombre()">Agregar</button>
+    <input type="number" placeholder="Numero de letras" id="numero-letras">
+    <button type="submit" onclick="filtrarNombres()">Filtrar</button>
+    <h3>Lista de nombres:</h3>    
+    <ul id="nombres"></ul>
+    <h3>Lista de nombres filtrados:</h3>
+    <ul id="nombres-filtrados"></ul>
+
+    <hr>
+    <h1>Ejercicio 4</h1>
+    <label for="fecha">Ingresar fecha de nacimiento:</label>
+    <input type="date" placeholder="Ingresar fecha de nacimiento:" id="fecha">
+    <button type="submit" onclick="mostrarEdades()">Consultar</button>
+    <h3>Lista de personas nacidas en esa fecha:</h3>
+    <ul id="personas"></ul>
+
+    <hr>
+    <h1>Ejercicio 5</h1>
+    <input type="text" placeholder="Ingresar hilera" id="hilera">
+    <button type="submit" onclick="calcularPalabras()">Calcular</button>
+    <h3 id="resultado-5">El total de palabras es: </h3>
+
+    <hr>
+    <h1>Ejercicio 6</h1>
+    <input type="number" placeholder="Numero" id="numero">
+    <button type="submit" onclick="agregarNumero()">Agregar</button>
+    <button type="submit" onclick="calcularPromedio()">Calcular Promedio</button>
+    <h3>Lista de numeros:</h3>
+    <ul id="numeros"></ul>
+    <h3 id="resultado-6">El promedio de todos los numeros ingresados es:</h3>
+
+    <hr>
+    <h1>Ejercicio 7</h1>
+    <div class="ejercicio-7">
+        <input type="color" placeholder="Ingresar color" id="color">
+        <button type="submit" onclick="cambiarColor()">Cambiar Color</button>
+        <div id="cuadro-color"></div>
+    </div>
+
+    <script src="./script.js"></script>    
+</body>
+</html>
